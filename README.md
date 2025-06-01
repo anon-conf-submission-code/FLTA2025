@@ -86,13 +86,13 @@ The analysis generates:
    - KM curve comparisons
    - MAE analysis with confidence intervals
    - P-value distributions
-   - Data distribution visualizations
+   - Data distribution (uniform, non-uniform, highly skewed) visualizations
+   - Event distributions in the lung cancer dataset 
 
 2. Statistical reports:
    - MAE tables
    - Log-rank test results
    - Method ranking tables
-   - TV parameter analysis
 
 3. Performance metrics:
    - Execution timing
@@ -113,27 +113,3 @@ TV_SCALING_POWER = 0.25   # Scaling power for data size adjustment
 VERBOSE_DEBUG = False     # Enable/disable detailed logging
 SEED_OFFSET = 42         # Random seed offset
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## Citation
-
-If you use this code in your research, please cite:
-```
-[Citation information will be added after publication]
-```
-
-## License
-
-[License information]
-
-## Acknowledgments
-
-- NCCTG Lung Cancer dataset
-- [Other acknowledgments] 
