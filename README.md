@@ -64,6 +64,7 @@ Edit `config.py` to modify:
 - Node configurations
 - Analysis settings
 - Visualization preferences
+- Number of Repetitions
 
 ## Privacy Methods
 
