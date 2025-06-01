@@ -10,7 +10,7 @@ SEED_OFFSET = 42  # Base seed for random number generation
 # Analysis Configuration
 ANALYSIS_METHODS = ['Dct', 'Wavelet', 'Tv', 'Weibull']  # DP smoothing methods
 EPSILON_VALUES = [0.1, 0.5, 1.0, 2.0, 5.0]  # Privacy budget values
-NUM_REPETITIONS = 2  # Number of repetitions for visualizations and log-rank statistical power
+NUM_REPETITIONS = 100  # Number of repetitions for visualizations and log-rank statistical power
 
 # Node Configuration
 NUM_NODES_FOR_VIZ = 3  # Standard number of nodes for overview plots
