@@ -68,14 +68,7 @@ Edit `config.py` to modify:
 
 ## Privacy Methods
 
-### Total Variation (TV) Smoothing
-- Adaptive regularization based on data size
-- Three-component lambda calculation:
-  1. Base regularization (TV_LAMBDA_BASE)
-  2. Data size scaling (n/TV_REF_SIZE)^TV_SCALING_POWER
-  3. Theoretical adjustment sqrt(log(n+1))
-
-### Other Methods
+- **TV**: Total Variation
 - **DCT**: Frequency domain privacy preservation
 - **Wavelet**: Multi-resolution analysis with privacy
 - **Weibull**: Parametric approach with differential privacy
@@ -94,8 +87,3 @@ The analysis generates:
    - MAE tables
    - Log-rank test results
    - Method ranking tables
-
-3. Performance metrics:
-   - Execution timing
-   - Privacy parameter effects
-   - Node distribution impact
